@@ -6,8 +6,8 @@
  */
 
 function reverseListInPlace(list){
-    const leftIndex = 0;
-    const rightIndex = list.length - 1
+    let leftIndex = 0;
+    let rightIndex = list.length - 1
 
     while(leftIndex<rightIndex){
         const temp = list[leftIndex]
