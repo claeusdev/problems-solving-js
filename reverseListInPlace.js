@@ -19,3 +19,6 @@ function reverseListInPlace(list){
     }
 }
 
+module.exports = {
+    reverseListInPlace
+}
